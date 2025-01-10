@@ -1,0 +1,118 @@
+/* src/components/Header.css */
+body{
+margin: 0%;
+}
+.header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1px 40px;
+background-color: #f8f9fa;
+}
+
+.logo {
+display: flex;
+align-items: center;
+}
+.icon{
+    display: flex;
+    height: 20px;
+}
+.iconB{
+    margin-top: 0px;
+}
+
+.logo img {
+height: 90px;
+margin-right: 8px;
+}
+
+.search-bar {
+display: flex;
+align-items: center;
+}
+
+/* .search-bar input {
+padding: 8px;
+border: 1px solid #ddd;
+border-radius: 4px;
+margin-right: 5px;
+} */
+
+.nav-links {
+display: flex;
+gap: 20px;
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Golden hover color */
+}
+.nav-link.active {
+    color: #ffd700; /* Golden color for active link */
+    border-bottom: 2px solid #ffd700; /* Optional underline effect */
+    padding-bottom: 0.2rem;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+}
+
+.cart-login {
+display: flex;
+align-items: center;
+}
+
+.cart {
+position: relative;
+margin-right: 15px;
+}
+
+.cart i {
+font-size: 1.2em;
+color: #333;
+}
+
+.cart-count {
+position: absolute;
+top: -5px;
+right: -10px;
+background-color: #8c0085;
+color: white;
+padding: 2px 6px;
+border-radius: 50%;
+font-size: 0.8em;
+}
+
+.login-button {
+background-color: #8c0085;
+color: white;
+padding: 8px 12px;
+border-radius: 4px;
+text-decoration: none;
+font-weight: bold;
+}
+.login-button:hover{
+background-color: #520140;
+}
+.welcome-content{
+background-color: rgb(238, 216, 233);
+padding: 46px 20PX;
+}
+.Wh{
+    margin-top: 0%;
+}
+.image-gallery{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.image-gallery img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

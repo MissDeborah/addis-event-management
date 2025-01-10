@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 import User from '../models/user.model.js';
+//import Welcome from '../../frontend/src/components/welcome.jsx';
 
 const router = express.Router();
 
@@ -35,7 +36,7 @@ router.post('/login', async (req, res) => {
 
     // const isMatch = await bcrypt.compare(password, User.password);
     if (password===user.password) {
-      return res.status(200).json({ success: true, message: 'Login successful' });
+      return res.status(200).json({ success: true, message: 'Login successful', name: user.name });
       
     }
 

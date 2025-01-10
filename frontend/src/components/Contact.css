@@ -1,0 +1,120 @@
+General Styling
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contact Page Styling */
+.contact-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #141414;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #707070;
+  margin-bottom: 2rem;
+}
+
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Contact Info Section */
+.contact-info {
+  background-color: #5a2d82;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.contact-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.contact-info p {
+  margin-bottom: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.info-item span {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Contact Form Section */
+.contact-form {
+  flex: 1;
+  max-width: 600px;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.send-button {
+  background-color: #d9ff00;
+  color: #141414;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.send-button:hover {
+  background-color: #b8e600;
+}
+
+.map-container{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+}

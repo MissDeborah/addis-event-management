@@ -1,0 +1,74 @@
+.add-event-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9e8f3; /* Soft pink background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-event-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #8b2d66; /* Deep purple color */
+  }
+  
+  .success-message {
+    text-align: center;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .add-event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #4b2146;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #8b2d66;
+    box-shadow: 0 0 5px rgba(139, 45, 102, 0.3);
+  }
+  
+  .submit-button {
+    padding: 0.8rem;
+    background-color: #8b2d66;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #6e1f50;
+  }
+  

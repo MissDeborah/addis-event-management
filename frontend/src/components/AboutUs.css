@@ -1,0 +1,82 @@
+.about-container {
+    background-color: #f9e8f3; /* Soft pink background */
+    color: #4b2146; /* Deep purple for text */
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #8b2d66; /* Title color */
+  }
+  
+  .about-description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.8;
+  }
+  
+  .about-features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .feature-card {
+    width: 30%;
+    margin: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .feature-card h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+    color: #8b2d66;
+  }
+  
+  .feature-card p {
+    padding: 0 1rem 1rem;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .about-vision,
+  .about-team {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .about-vision h2,
+  .about-team h2 {
+    font-size: 2rem;
+    color: #8b2d66;
+    margin-bottom: 1rem;
+  }
+  
+  .about-vision p,
+  .about-team p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  

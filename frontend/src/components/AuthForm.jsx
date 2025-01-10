@@ -20,8 +20,11 @@ const AuthForm = () =>{
       const response = await axios.post('http://localhost:5000/api/users/register',
         {name,Gender,email,password,phone_number,role,}
       ); 
-      setMessage(response.data.message); 
-      navigate('/welcome');
+      if (response.data.success) {
+        setMessage(response.data.message);
+        localStorage.setItem('userName', response.data.name);
+        navigate('/welcome'); // Redirect to the welcome page upon successful login
+      }
     }catch(error){
     setMessage(error.response ?.data?.message || 'register error occurred');
     }
@@ -33,6 +36,7 @@ const AuthForm = () =>{
       
       if (response.data.success) {
         setMessage(response.data.message);
+        localStorage.setItem('userName', response.data.name);
         navigate('/welcome'); // Redirect to the welcome page upon successful login
       }
     
